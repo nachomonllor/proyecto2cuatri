@@ -6,11 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./calculo.component.css']
 })
 export class CalculoComponent implements OnInit {
-  edadUno:number;
-   edadDos:number;
+    edadUno:number=0.0;
+    edadDos:number=0.0;
 
-    promedio:number = 0;
-    suma:number = 0; 
+    promedio:number = 0.0;
+    suma:number = 0.0; 
 
   constructor() { }
 
@@ -18,7 +18,7 @@ export class CalculoComponent implements OnInit {
   }
   
   calcular() {
-    this.promedio = (this.edadUno + this.edadDos)/2;
+    this.promedio = (this.edadUno + this.edadDos)/2.0;
     this.suma = this.edadUno + this.edadDos;
   }
 
