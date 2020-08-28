@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "cuatri2"
+    }
+  },
+  "defaultProject": "cuatri2",
+  "cli": {
+    "analytics": "bad956f8-eeb7-4190-8678-a00e1dfc310e"
+  }
 }
