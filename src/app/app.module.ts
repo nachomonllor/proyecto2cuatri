@@ -6,12 +6,16 @@ import { ComponenteEjemploComponent } from './componente-ejemplo/componente-ejem
 import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { CalculoComponent } from './calculo/calculo.component';
+import { LoginComponent } from './auth/login/login.component';
+import { BienvenidaComponent } from './bienvenida/bienvenida.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ComponenteEjemploComponent,
-    CalculoComponent
+    CalculoComponent,
+    LoginComponent,
+    BienvenidaComponent
   ],
   imports: [
     BrowserModule,
