@@ -1,3 +1,4 @@
+import { ErrorComponent } from './error/error.component';
 
 import { CalculoComponent } from './calculo/calculo.component';
 
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'calculo', component: CalculoComponent },
   { path: 'bienvenida', component: BienvenidaComponent },
+  { path: 'error', component: ErrorComponent },
 ];
 
 @NgModule({
