@@ -8,7 +8,11 @@ const usersMock = [{
         password: "123456"
 
     },
+    {
+        username: "admin",
+        password: "admin"
 
+    },
 ]
 
 export default class UsersServiceMock {

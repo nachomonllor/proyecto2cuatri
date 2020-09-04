@@ -8,6 +8,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { CalculoComponent } from './calculo/calculo.component';
 import { LoginComponent } from './auth/login/login.component';
 import { BienvenidaComponent } from './bienvenida/bienvenida.component';
+import { ErrorComponent } from './error/error.component';
+import { AuthService } from './auth/auth.service';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,8 @@ import { BienvenidaComponent } from './bienvenida/bienvenida.component';
     ComponenteEjemploComponent,
     CalculoComponent,
     LoginComponent,
-    BienvenidaComponent
+    BienvenidaComponent,
+    ErrorComponent
   ],
   imports: [
     BrowserModule,

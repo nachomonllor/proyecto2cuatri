@@ -9,11 +9,13 @@ import { User } from 'src/app/models/user';
 })
 export class LoginComponent implements OnInit {
 
-  username:string;
-  password:string;
+  //username:string;
+  //password:string;
   user : User; 
 
-  constructor(private auth: AuthService) { }
+  constructor(private auth: AuthService) { 
+    this.user = new User('','');
+  }
 
 
   ngOnInit(): void {
@@ -21,9 +23,8 @@ export class LoginComponent implements OnInit {
   }
  
   loguearse() {
-    //this.auth.login();
-    //this.user = username;
-    this.user = new User(this.username, this.password);
+   
+    
     this.auth.login(this.user);
 
   }

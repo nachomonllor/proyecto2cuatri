@@ -9,10 +9,10 @@ import { LoginComponent } from './auth/login/login.component';
 
 const routes: Routes = [
  
-  { path: 'bienvenido', component: BienvenidaComponent },
+  { path: '', component: LoginComponent },
   { path: 'login', component: LoginComponent },
   { path: 'calculo', component: CalculoComponent },
-  { path: '**', component: LoginComponent },
+  { path: 'bienvenida', component: BienvenidaComponent },
 ];
 
 @NgModule({
